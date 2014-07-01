@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'RobotoThin';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url('../../assets/roboto-thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'RobotoLight';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url('../../assets/roboto-light.woff') format('woff');
+}
+@font-face {
+  font-family: 'RobotoBold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('../../assets/roboto-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'RobotoBlack';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url('../../assets/roboto-black.woff') format('woff');
+}
+
+#navigation-bar.container , #navigation-bar.container > a{
+	/*background: rgba(244, 187, 44, 0.97);	*/	
+	color: #FFF !important;
+}
+
+#navigation-bar ul.nav li > a{
+	color: #FFF;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+} 
+
+
+
+
+
+@media (min-width: 1200px) {
+  #navigation-bar div.container {
+    width: 970px;
+  }
+}
+
+
